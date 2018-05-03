@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>org.thewheatfield.dotnet.nuget.test</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Tim</Authors>
+    <Description>A test library to understand Nuget publishing</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
