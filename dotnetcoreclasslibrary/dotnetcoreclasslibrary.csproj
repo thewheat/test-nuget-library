@@ -7,6 +7,7 @@
     <PackageVersion>0.0.1</PackageVersion>
     <Authors>Tim</Authors>
     <Description>A test library to understand Nuget publishing</Description>
+    <ReleaseVersion>0.2</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
